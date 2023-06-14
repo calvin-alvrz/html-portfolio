@@ -1,10 +1,14 @@
-# Online Selling Website
+# HTML Personal Portfolio
 
 ## Description
 
-This project aims to deliver a webpage using HTML, CSS and JavaScript. The purpose of the website is to allow customers to have access to a range of products being sold by X company and let them call the company in order to buy said products
+This project aims to showcase my proficiency in web development. Below it is an overview of the project and the various features and techniques I have implemented.
 
-## Features
+## Project Overview
 
+The goal of this website is to create a visually attractive and interactive website using my web development skills.
+
++ Structured Content
 + Responsive Design
-+ Social Media Integration
++ Aesthetic CSS
++ Accessibility
