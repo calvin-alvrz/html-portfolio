@@ -1,3 +1,16 @@
+/* Website's Color Palette #1A1C22 #3D3A50 #580EF6 #F7F7F7*/
+
+body {
+    background-color: #1A1C22;
+}
+
 .ai {
-    color: red;
+    color: #580EF6;
+    font-size: 500%;
+    text-align: center;
+}
+
+.ao {
+    color: #F7F7F7;
+    text-align: center;
 }

@@ -9,6 +9,7 @@ This project aims to showcase my proficiency in web development. Below it is an 
 Here are some exciting ideas I thought of when creating this website.
 
 + A big bullseye icon that whenever the user hovers the cursor on top an arrow is thrown in the middle
++ A short menu on the right side of the page, when the user clicks on one of the nav options, the text changes
 
 ## Project Overview
 
