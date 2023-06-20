@@ -1,16 +1,21 @@
 /* Website's Color Palette #1A1C22 #3D3A50 #580EF6 #F7F7F7*/
 
+@font-face {
+    font-family: "Calistoga-Regular";
+    src: url("/fonts/Calistoga-Regular.woff2") format("woff2");
+    src: url("/fonts/Calistoga-Regular.woff") format("woff");
+}
+
 body {
     background-color: #1A1C22;
 }
 
-.ai {
-    color: #580EF6;
+.title_name {
+    color: #F7F7F7;
     font-size: 500%;
-    text-align: center;
+    font-family: "Calistoga-Regular", cursive;
 }
 
-.ao {
+.subtitle_university {
     color: #F7F7F7;
-    text-align: center;
 }
