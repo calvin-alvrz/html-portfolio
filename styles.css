@@ -10,12 +10,23 @@ body {
     background-color: #1A1C22;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    justify-items: center;
+    align-items: center;
+}
+
 .title_name {
     color: #F7F7F7;
-    font-size: 500%;
+    text-align: center;
+    font-size: 400%;
     font-family: "Calistoga-Regular", cursive;
+    letter-spacing: 4px;
 }
 
 .subtitle_university {
+    text-align: center;
     color: #F7F7F7;
 }
