@@ -6,6 +6,12 @@
     src: url("/fonts/Calistoga-Regular.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Kalam-Regular";
+    src: url("/fonts/Kalam-Regular.woff2") format("woff2");
+    src: url("/fonts/Kalam-Regular.woff") format("woff");
+}
+
 body {
     background-color: #1A1C22;
 }
@@ -18,15 +24,42 @@ body {
     align-items: center;
 }
 
-.title_name {
+#title-name {
     color: #F7F7F7;
     text-align: center;
+    letter-spacing: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 400%;
     font-family: "Calistoga-Regular", cursive;
-    letter-spacing: 4px;
 }
 
-.subtitle_university {
-    text-align: center;
+.invisible-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#subtitle-university {
     color: #F7F7F7;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Kalam-Regular", cursive;
+}
+
+.social-media-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.sm-icon {
+    margin: 0 10px;
+}
+
+.sm-icon img {
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1);
 }
