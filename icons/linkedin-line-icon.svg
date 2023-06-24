@@ -1,1 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3333 3102" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="M1204 925h640c26 0 47 21 47 47v196c52-57 118-109 199-151 107-56 240-92 395-92 356 0 569 113 693 299 122 183 155 433 155 715v1114c0 26-21 47-47 47h-667c-26 0-47-21-47-47v-988c0-113-1-243-42-340-37-88-111-152-258-152-154 0-241 55-290 138-52 88-64 211-64 336v1005c0 26-21 47-47 47h-667c-26 0-47-21-47-47V970c0-26 21-47 47-47zm593 94h-546v1988h572v-958c0-140 15-278 77-384 65-111 178-185 371-185 195 0 294 88 345 210 48 114 49 254 49 376v941h573V1940c0-265-30-499-139-663-107-161-295-258-615-258-139 0-257 32-352 82-114 59-194 142-239 222-8 14-23 24-41 24h-9c-26 0-47-21-47-47v-281zM789 393c0 109-44 207-116 279-71 71-170 116-279 116s-207-44-279-116C44 601-1 502-1 393s44-207 116-279C186 43 285-2 394-2s207 44 279 116c71 71 116 170 116 279zM607 605c54-54 88-129 88-212s-34-158-88-212-129-88-212-88-158 34-212 88-88 129-88 212 34 158 88 212 129 88 212 88 158-34 212-88zM48 924h694c26 0 47 21 47 47v2082c0 26-21 47-47 47H48c-26 0-47-21-47-47V971c0-26 21-47 47-47zm647 94H95v1988h600V1018z" fill-rule="nonzero"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   height="800px"
+   width="800px"
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 310 310"
+   xml:space="preserve"
+   sodipodi:docname="linkedin-line-icon.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs9" /><sodipodi:namedview
+   id="namedview7"
+   pagecolor="#505050"
+   bordercolor="#ffffff"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="1.005"
+   inkscape:cx="400"
+   inkscape:cy="268.1592"
+   inkscape:window-width="1920"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="XMLID_801_"
+   transform="matrix(0.91758136,0,0,0.91758136,12.774889,12.774889)">
+	<path
+   id="XMLID_802_"
+   d="M 72.16,99.73 H 9.927 c -2.762,0 -5,2.239 -5,5 v 199.928 c 0,2.762 2.238,5 5,5 H 72.16 c 2.762,0 5,-2.238 5,-5 V 104.73 c 0,-2.761 -2.238,-5 -5,-5 z" />
+	<path
+   id="XMLID_803_"
+   d="M 41.066,0.341 C 18.422,0.341 0,18.743 0,41.362 0,63.991 18.422,82.4 41.066,82.4 63.692,82.4 82.099,63.99 82.099,41.362 82.1,18.743 63.692,0.341 41.066,0.341 Z" />
+	<path
+   id="XMLID_804_"
+   d="m 230.454,94.761 c -24.995,0 -43.472,10.745 -54.679,22.954 V 104.73 c 0,-2.761 -2.238,-5 -5,-5 h -59.599 c -2.762,0 -5,2.239 -5,5 v 199.928 c 0,2.762 2.238,5 5,5 h 62.097 c 2.762,0 5,-2.238 5,-5 V 205.74 c 0,-33.333 9.054,-46.319 32.29,-46.319 25.306,0 27.317,20.818 27.317,48.034 v 97.204 c 0,2.762 2.238,5 5,5 H 305 c 2.762,0 5,-2.238 5,-5 V 194.995 C 310,145.43 300.549,94.761 230.454,94.761 Z" />
+</g>
+</svg>

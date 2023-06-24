@@ -1,4 +1,4 @@
-/* Website's Color Palette #1A1C22 #3D3A50 #580EF6 #F7F7F7*/
+/*Website's Color Palette #1A1C22 #3D3A50 #580EF6 #F7F7F7*/
 
 @font-face {
     font-family: "Calistoga-Regular";
@@ -12,6 +12,8 @@
     src: url("/fonts/Kalam-Regular.woff") format("woff");
 }
 
+/*General*/
+
 body {
     background-color: #480dc8;
 }
@@ -24,6 +26,16 @@ body {
     align-items: center;
 }
 
+/*Left grid container*/
+
+#left-grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Right (main) grid container*/
+
 #title-name {
     color: #F7F7F7;
     text-align: center;
@@ -34,11 +46,6 @@ body {
     font-family: "Calistoga-Regular", cursive;
 }
 
-.invisible-link {
-    text-decoration: none;
-    color: inherit;
-}
-
 #subtitle-university {
     color: #F7F7F7;
     text-align: center;
@@ -46,6 +53,13 @@ body {
     margin-bottom: auto;
     font-family: "Kalam-Regular", cursive;
 }
+
+.invisible-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Navigation Menu*/
 
 .menu {
     list-style: none;
@@ -55,12 +69,50 @@ body {
     padding: 0;
 }
 
-.menu-item {
+/*Buttons*/
+
+.nav-button {
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 20px;
-    border: 2px solid #6f2efc;
+    align-items: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color: #F7F7F7;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 47px;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: center;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
 }
+
+.nav-button:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.nav-button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.nav-button:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/*Social media*/
 
 .social-media-icons {
     list-style: none;
