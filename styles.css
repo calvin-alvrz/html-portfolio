@@ -14,14 +14,22 @@
 
 /*General*/
 
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
 body {
-    background-color: #480dc8;
+    background: radial-gradient(100% 100% at 100% 0, #5adaff 0, #580EF6 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grid-container {
+    position: fixed;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 95vh;
+    height: 100vh;
     justify-items: center;
     align-items: center;
 }
@@ -75,7 +83,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    background-image: radial-gradient(100% 100% at 100% 0, #734dfe 0, #6715ff 100%);
     border: 0;
     border-radius: 5px;
     box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -99,17 +107,25 @@ body {
 }
 
 .nav-button:focus {
-    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    box-shadow: #683ce0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #683ce0 0 -3px 0 inset;
 }
 
 .nav-button:hover {
-    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #683ce0 0 -3px 0 inset;
     transform: translateY(-2px);
 }
 
 .nav-button:active {
-    box-shadow: #3c4fe0 0 3px 7px inset;
+    box-shadow: #683ce0 0 3px 7px inset;
     transform: translateY(2px);
+}
+
+/*Scrollable main*/
+
+#scrollable-main {
+    margin-top: 3em;
+    background-color: white;
+    height: 40vh;
 }
 
 /*Social media*/
@@ -119,6 +135,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
+    margin-top: 3em;
 }
 
 .sm-icon {
@@ -128,5 +145,9 @@ body {
 .sm-icon img {
     width: 25px;
     height: 25px;
+    filter: brightness(0) invert(0.90);
+}
+
+.sm-icon:hover {
     filter: brightness(0) invert(1);
 }
