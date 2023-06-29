@@ -124,9 +124,20 @@ body {
 
 #scrollable-main {
     margin-top: 3em;
-    background-color: white;
     height: 40vh;
+    width: 500px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
 }
+
+#scrollable-main::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .main-titles {
+    text-align: center;
+  }
 
 /*Social media*/
 
