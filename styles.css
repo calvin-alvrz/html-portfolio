@@ -127,7 +127,7 @@ body {
     height: 40vh;
     width: 500px;
     overflow-y: auto;
-    scrollbar-width: thin;
+    scrollbar-width: none;
     -ms-overflow-style: none;
 }
 
